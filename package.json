@@ -1,0 +1,30 @@
+{
+  "name": "cypress-test",
+  "description": "Cypress Test",
+  "version": "0.0.1",
+  "license": "MIT",
+  "keywords": [],
+  "author": "Emilio Perello",
+  "homepage": "https://github.com/emilioperello/cypress-test",
+  "bugs": "https://github.com/emilioperello/cypress-test/issues",
+  "private": false,
+  "scripts": {
+    "lint": "eslint ./src",
+    "prettier:fix": "prettier --write 'src/**/*.js'"
+  },
+  "main": "",
+  "module": "",
+  "typings": "",
+  "files": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emilioperello/cypress-test"
+  },
+  "peerDependencies": {},
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^6.2.0",
+    "eslint": "^7.17.0",
+    "prettier": "^2.2.1"
+  }
+}
